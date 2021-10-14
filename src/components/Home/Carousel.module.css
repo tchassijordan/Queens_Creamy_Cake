@@ -1,0 +1,50 @@
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.carousel_c {
+    display: 'block';
+    height: calc(100vh - 8.25em);
+}
+
+.slide {
+    opacity: 1;
+}
+
+.pi,
+.ni,
+.ppi {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.753);
+    cursor: pointer;
+}
+
+.pi {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-85%,-50%);
+}
+
+.ni_ppi {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 7%;
+}
+
+.pi:hover,
+.pi:focus,
+.ni:hover,
+.ni:focus,
+.ppi:hover,
+.ppi:focus {
+    color: hotpink;
+}
