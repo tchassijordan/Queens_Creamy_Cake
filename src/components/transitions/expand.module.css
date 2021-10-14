@@ -1,0 +1,17 @@
+.enter {
+    width: 0%;
+}
+
+.enterActive {
+    width: 100%;
+    transition: width 300ms;
+}
+
+.exit {
+    width: 100%;
+}
+
+.exitActive {
+    width: 0%;
+    transition: width 300ms;
+}
