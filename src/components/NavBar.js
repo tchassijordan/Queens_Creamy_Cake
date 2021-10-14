@@ -2,8 +2,9 @@ import React, {useState, useEffect} from "react";
 import {FaChevronDown, FaChevronUp} from 'react-icons/fa'
 import { CSSTransition } from 'react-transition-group';
 import styles from "./NavBar.module.css"
-import fadeTransition from './fadeTransition.module.css'
+import fadeTransition from './transitions/fadeTransition.module.css'
 import '../App.css'
+import { Link } from "react-router-dom";
 
 const Explore = () => {
     const [isOpen, setOffer] = useState(false)
@@ -24,14 +25,15 @@ const Explore = () => {
                     unmountOnExit
                 >
                     <ul className={styles.menu_ls}>
-                        <li><a className={styles.menu_ls_a} href="##">Cakes</a></li>
-                        <li><a className={styles.menu_ls_a} href="##">Packs</a></li>
-                        <li><a className={styles.menu_ls_a} href="##">Others</a></li>
+                        <li><Link className={styles.menu_ls_a} to="/store/">Store</Link></li>
+                        <li><Link className={styles.menu_ls_a} to="/store/cakes">Cakes</Link></li>
+                        <li><Link className={styles.menu_ls_a} to="/store/packs">Packs</Link></li>
+                        <li><Link className={styles.menu_ls_a} to="##">Others</Link></li>
                     </ul>
                 </CSSTransition>
             </li>
-            <li><a className={styles.exp_list_a} href="##">ABOUT</a></li>
-            <li><a className={styles.exp_list_a} href="##">CONTACT</a></li>
+            <li><Link className={styles.exp_list_a} to="/about">ABOUT</Link></li>
+            <li><Link className={styles.exp_list_a} to="/contact">CONTACT</Link></li>
         </ul>
     )
 }
@@ -46,17 +48,22 @@ export default function NavBar() {
     useEffect(() => {
         checkwidth()
     })
+    const activeExplore = {
+        borderColor: 'rgb(255, 105, 180)',
+        opacity: '0.85'
+    }
     
     return (
         <nav className={styles.nav}>
             <ul className={styles.navList}>
                 <li className={styles.logo}>
-                    <a href="##">
+                    <Link to="/">
                         <img className={styles.logoImg} src={'/images/QCC_logo.png'} alt="Logo" />
-                    </a>
+                    </Link>
                 </li>
                 <li className={styles.slider}
                     onClick={() => setExplore(!isOpen)}
+                    style={isOpen ? activeExplore : null}
                 >Explore</li>
             </ul> 
            

@@ -12,6 +12,7 @@ ul {
     --gray-f: rgba(46, 42, 42, 0.322);
     --gray-d: rgb(24, 23, 23);
     position: relative;
+    background-color: black;
 }
 
 .navList,
@@ -124,8 +125,8 @@ ul {
     .nav {
         display: grid;
         grid-template-columns: auto 1fr;
+        gap: 1em;
         align-items: center;
-        background-color: black;
     }
 
     .navList {
@@ -138,7 +139,7 @@ ul {
     }
 
     .exp_list {
-        grid-column: 2 / -1;
+        grid-column: 2;
         position: relative;
         flex-direction: row;
         align-items: baseline;
@@ -174,7 +175,7 @@ ul {
 } 
 
 @media (min-width: 675px) {
-    .navList {
-        margin-left: 30%;
+    .nav {
+        padding: 0 5%;
     }
 }
