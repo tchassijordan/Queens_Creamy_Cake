@@ -2,8 +2,8 @@ import React, {useState, useEffect} from "react";
 import {FaChevronDown, FaChevronUp} from 'react-icons/fa'
 import { CSSTransition } from 'react-transition-group';
 import styles from "./NavBar.module.css"
-import fadeTransition from './transitions/fadeTransition.module.css'
-import '../App.css'
+import fadeTransition from '../transitions/expand.module.css'
+import '../../../App.css'
 import { Link } from "react-router-dom";
 
 const Explore = () => {

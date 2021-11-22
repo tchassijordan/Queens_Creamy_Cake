@@ -1,0 +1,112 @@
+.containerSmall,
+.containerBig {
+    margin: 0 auto;
+    margin: 1em;
+    padding: 1.2em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 20.2375em;
+    font-size: 0.85rem;
+    overflow-x: auto;
+    width: 100%;
+    background-color: rgba(104, 104, 104, 0.123);
+}
+
+.containerBig {
+    height: 100%;
+}
+
+.containerSmall {
+    height: 100%;
+}
+
+.containerBig:hover, 
+.containerSmall:hover {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.cakeImg {
+    height: 15.625em;
+    margin: 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+.title,
+.description {
+    letter-spacing: 1px;
+}
+
+.title {
+    font-size: 1.1rem;
+    font-family: 'Lora', sans-serif;
+}
+
+.dimension {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.548);
+    margin: 0;
+}
+
+.description {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+}
+
+.price {
+    color: aqua;
+}
+
+.priceIn {
+    color: black;
+}
+
+.btn {
+    font-size: 0.7rem;
+    color: rgb(0, 81, 255);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: none;
+    transition: 300ms;
+    width: fit-content;
+    margin: 1em 0;
+}
+
+.btn:hover,
+.btn:focus {
+    padding-bottom: 0.25em;
+    border-bottom: 2px solid black;
+}
+
+@media (min-width: 998px) {
+    html {
+        font-size: 13px;
+    }
+
+    .containerBig {
+        gap: 0.85em;
+        max-width: 420px;
+        flex-direction: row;
+    }
+
+    .cakeImg {
+        width: 50%;
+    }
+
+    .about {
+        width: 50%;
+    }
+
+    .title {
+        margin-top: 0;
+    }
+}

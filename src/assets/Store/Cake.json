@@ -1,0 +1,283 @@
+{
+    "cake": [
+        {
+            "id": "C01",
+            "img": "/images/anniversary-promo-cake.JPG",
+            "title": "Joyeau Anniversaire",
+            "category": {
+                "parent_type": "birthday",
+                "type": "simple",
+                "shape": "round"
+            },
+            "dimension": "16cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        },
+        {
+            "id": "C02",
+            "img": "/images/heart-cake.JPG",
+            "title": "Heart Birthday Cake",
+            "category": {
+                "parent_type": "birthday",
+                "type": "simple",
+                "shape": "heart"
+            },
+            "dimension": "19cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        },
+        {
+            "id": "C03",
+            "img": "/images/pink-square-cake.JPG",
+            "title": "Birthday Cake",
+            "category": {
+                "parent_type": "birthday",
+                "type": "simple",
+                "shape": "square"
+            },
+            "dimension": "10cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        },
+        {
+            "id": "C04",
+            "img": "/images/birthday-cake.jpg",
+            "title": "Birthday Cake",
+            "category": {
+                "parent_type": "birthday",
+                "type": "simple",
+                "shape": "round"
+            },
+            "dimension": "10cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        },
+        {
+            "id": "C05",
+            "img": "/images/anniversary-cake.JPG",
+            "title": "Wedding Cake",
+            "category": {
+                "parent_type": "wedding",
+                "type": "traditional"
+            },
+            "dimension": "21cm * 26cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        },
+        {
+            "id": "C06",
+            "img": "/images/musical.jpg",
+            "title": "Wedding Cake",
+            "category": {
+                "parent_type": "wedding",
+                "type": "classical"
+            },
+            "dimension": "21cm * 26cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        },
+        {
+            "id": "C07",
+            "img": "/images/red-cupcake.JPG",
+            "title": "Cupcakes",
+            "category": {
+                "parent_type": "cupcakes",
+                "type": "cream"
+            },
+            "dimension": "5cm * 5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        },
+        {
+            "id": "C08",
+            "img": "/images/cupcake3.jpg",
+            "title": "Cupcakes",
+            "category": {
+                "parent_type": "cupcakes",
+                "type": "cream"
+            },
+            "dimension": "5cm * 5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        },
+        {
+            "id": "C09",
+            "img": "/images/brown-cupcakes.JPG",
+            "title": "Cupcakes",
+            "category": {
+                "parent_type": "cupcakes",
+                "type": "no-cream"
+            },
+            "dimension": "5cm * 5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        },
+        {
+            "id": "C10",
+            "img": "/images/twins-cake.JPG",
+            "title": "Birthday Cake",
+            "category": {
+                "parent_type": "birthday",
+                "type": "simple",
+                "shape": "number"
+            },
+            "dimension": "20cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        },
+        {
+            "id": "C11",
+            "img": "/images/makeup-cake.JPG",
+            "title": "Makeup Cake",
+            "category": {
+                "parent_type": "birthday",
+                "type": "simple",
+                "shape": "barbie"
+            },
+            "dimension": "15cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        },
+        {
+            "id": "C12",
+            "img": "/images/black-gold-cake.JPG",
+            "title": "Cake",
+            "category": {
+                "parent_type": "birthday",
+                "type": "simple",
+                "shape": "square"
+            },
+            "dimension": "7cm * 7cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        }
+    ],
+    "pastel_de_viande": [
+        {
+            "id": "PV01",
+            "img": "/images/bulb.jpg",
+            "title": "Pastel de Viande",
+            "category": {
+                "parent_type": "",
+                "type": "",
+                "shape": ""
+            },
+            "dimension": "10cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        }
+    ],
+    "donuts": [
+        {
+            "id": "D01",
+            "img": "/images/donuts.jpg",
+            "title": "Donuts",
+            "category": {
+                "parent_type": "",
+                "type": "",
+                "shape": ""
+            },
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        },
+        {
+            "id": "D02",
+            "img": "/images/donuts.jpg",
+            "title": "Donuts",
+            "category": {
+                "parent_type": "",
+                "type": "",
+                "shape": ""
+            },
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        }
+    ],
+    "tarte": [
+        {
+            "id": "T01",
+            "img": "/images/green-cake-bg.jpg",
+            "title": "Tarte au Citron",
+            "category": {
+                "parent_type": "tarte",
+                "type": "citron",
+                "shape": ""
+            },
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        },
+        {
+            "id": "T02",
+            "img": "/images/green-cake-bg.jpg",
+            "title": "Tarte à Courgettes",
+            "category": {
+                "parent_type": "tarte",
+                "type": "courgettes",
+                "shape": ""
+            },
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        },
+        {
+            "id": "T03",
+            "img": "/images/green-cake-bg.jpg",
+            "title": "Tarte à Suisons",
+            "category": {
+                "parent_type": "tarte",
+                "type": "suisons",
+                "shape": ""
+            },
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        },
+        {
+            "id": "T04",
+            "img": "/images/green-cake-bg.jpg",
+            "title": "Tarte à Epinards",
+            "category": {
+                "parent_type": "tarte",
+                "type": "epinards",
+                "shape": ""
+            },
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA"
+        }
+    ],
+    "popcake": [
+        {
+            "id": "PC01",
+                "img": "/images/pink-bg4.png",
+                "title": "Popcake à Thème",
+                "category": {
+                    "parent_type": "",
+                    "type": "",
+                    "shape": ""
+                },
+                "dimension": "5cm",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas."
+   ,             "price": "5 FCFA"
+        }
+    ],
+    "quiche_loriane": [
+        {
+            "id": "QC01",
+                "img": "/images/pink-bg3.png",
+                "title": "Quiche Loriane",
+                "category": {
+                    "parent_type": "",
+                    "type": "",
+                    "shape": ""
+                },
+                "flavour": ["Patte", "Lardons", "Crème Fraiche", "oeufs"],
+                "dimension": "5cm",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas."
+   ,             "price": "5 FCFA"
+        }
+    ]
+}

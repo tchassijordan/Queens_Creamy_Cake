@@ -88,10 +88,25 @@
     font-size: 0.75rem;
 }
 
+.styledExploreImg {
+    display: grid;
+    grid-template: 50px 300px 400px / 1fr ;
+}
+
+.gelato {
+    background: none;
+    grid-column: 1 / -1 ;
+    grid-row: 1 / 2;
+    z-index: 1;
+}
+
 .exploreItemImg {
-    height: 18.75em;
+    /* height: 18.75em;
+    max-height: 1000px; */
     object-fit: cover;
     object-position: bottom;
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
 }
 
 .readMoreBtn,

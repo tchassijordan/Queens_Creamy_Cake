@@ -1,10 +1,9 @@
 import '../../App.css';
-import Carousel from './Carousel'
-import MainHomeContent from './MainHomeContent'
-import InstagramGallery from './InstagramGallery'
+import Carousel from './Carousel/Carousel'
+import MainHomeContent from './MainHomeContent/MainHomeContent'
+import InstagramGallery from './InstagramGallery/InstagramGallery'
 
 function HomePage() {
-  
   return (
     <main>
       <div>

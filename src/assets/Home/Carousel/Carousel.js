@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import styles from "./Carousel.module.css" 
 import { CSSTransition } from 'react-transition-group'; 
-import fadeTransition from '../transitions/fadeTransition.module.css'
+import fadeTransition from '../../GeneralComponents/transitions/fadeTransition.module.css'
 import {MdPauseCircleFilled, MdPlayCircleFilled} from 'react-icons/md'
 import { BiRightArrow, BiLeftArrow} from 'react-icons/bi'
 
@@ -10,7 +10,7 @@ export default function Slide(props) {
     const smallGallery =  ['/images/musical.jpg', '/images/yellow_cake.jpg', '/images/cupcakes_circles.jpg', '/images/rainbow-cake.jpg']
     //let gallery = window.screen.availWidth >= 768 ? bigGallery : smallGallery
     const gallery = smallGallery
-    const [count, setCount] = useState(0)
+    const [count, setCount] = useState(0) 
     const [isRunning, setIsRunning] = useState(true)
     function checkCount() {
         const previousCount = count
