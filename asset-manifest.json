@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Queens_Creamy_Cake/static/css/main.56a7204b.chunk.css",
+    "main.js": "/Queens_Creamy_Cake/static/js/main.a8bd8e9f.chunk.js",
+    "main.js.map": "/Queens_Creamy_Cake/static/js/main.a8bd8e9f.chunk.js.map",
+    "runtime-main.js": "/Queens_Creamy_Cake/static/js/runtime-main.8dc24f06.js",
+    "runtime-main.js.map": "/Queens_Creamy_Cake/static/js/runtime-main.8dc24f06.js.map",
+    "static/js/2.562d655e.chunk.js": "/Queens_Creamy_Cake/static/js/2.562d655e.chunk.js",
+    "static/js/2.562d655e.chunk.js.map": "/Queens_Creamy_Cake/static/js/2.562d655e.chunk.js.map",
+    "static/js/3.087171ba.chunk.js": "/Queens_Creamy_Cake/static/js/3.087171ba.chunk.js",
+    "static/js/3.087171ba.chunk.js.map": "/Queens_Creamy_Cake/static/js/3.087171ba.chunk.js.map",
+    "index.html": "/Queens_Creamy_Cake/index.html",
+    "static/css/main.56a7204b.chunk.css.map": "/Queens_Creamy_Cake/static/css/main.56a7204b.chunk.css.map",
+    "static/js/2.562d655e.chunk.js.LICENSE.txt": "/Queens_Creamy_Cake/static/js/2.562d655e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8dc24f06.js",
+    "static/js/2.562d655e.chunk.js",
+    "static/css/main.56a7204b.chunk.css",
+    "static/js/main.a8bd8e9f.chunk.js"
+  ]
+}
