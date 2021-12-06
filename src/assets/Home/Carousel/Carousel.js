@@ -4,17 +4,17 @@ import { CSSTransition } from 'react-transition-group';
 import fadeTransition from '../../GeneralComponents/transitions/fadeTransition.module.css'
 import {MdPauseCircleFilled, MdPlayCircleFilled} from 'react-icons/md'
 import { BiRightArrow, BiLeftArrow} from 'react-icons/bi'
+import ImageRedirector from "../../GeneralComponents/ImageRedirector"; 
+
+//create reference to my objects
+const images = ImageRedirector();
 
 export default function Slide(props) {
-    //const bigGallery = ['/images/familysize.jpg', '/images/IMG_E4342.JPG', '/images/grapes.jpg', '/images/OEAN5772.JPG']
-    const smallGallery =  ['/images/musical.jpg', '/images/yellow_cake.jpg', '/images/cupcakes_circles.jpg', '/images/rainbow-cake.jpg']
-    //let gallery = window.screen.availWidth >= 768 ? bigGallery : smallGallery
-    const gallery = smallGallery
+    const gallery =  [images["musical.jpg"].default, images["yellow_cake.jpg"].default, images["cupcakes_circles.jpg"].default, images["rainbow-cake.jpg"].default]
     const [count, setCount] = useState(0) 
     const [isRunning, setIsRunning] = useState(true)
     function checkCount() {
         const previousCount = count
-
         if (previousCount > gallery.length - 2) 
             setCount(0)
     }

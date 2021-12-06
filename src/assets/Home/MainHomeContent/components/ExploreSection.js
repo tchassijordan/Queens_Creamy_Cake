@@ -1,6 +1,10 @@
 import React from "react"
 import styles from "../MainHomeContent.module.css"
 import Gelato from "../../svg/Gelato"
+import ImageRedirector from "../../../GeneralComponents/ImageRedirector"; 
+
+//create reference to my objects
+const images = ImageRedirector();
 
 export default function Explore() {
     return (
@@ -15,7 +19,7 @@ export default function Explore() {
                 </div>
                 <div className={styles.styledExploreImg}>
                     <Gelato style={styles.gelato} fill='rgba(128, 0, 128, 1)' />
-                    <img className={styles.exploreItemImg} src="/images/triangle_slice.jpg" alt="Explore Menu" />
+                    <img className={styles.exploreItemImg} src={images["triangle_slice.jpg"].default} alt="Explore Menu" />
                 </div>
             </div>
             <div className={styles.exploreItem}>
@@ -28,7 +32,7 @@ export default function Explore() {
                 </div>
                 <div className={styles.styledExploreImg}>
                     <Gelato style={styles.gelato} fill='white' />
-                    <img className={styles.exploreItemImg} src="/images/yellow_cake.jpg" alt="Best Cakes" />
+                    <img className={styles.exploreItemImg} src={images["yellow_cake.jpg"].default} alt="Best Cakes" />
                 </div>
             </div>
         </div>

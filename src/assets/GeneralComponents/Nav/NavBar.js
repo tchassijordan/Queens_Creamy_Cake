@@ -5,6 +5,10 @@ import styles from "./NavBar.module.css"
 import fadeTransition from '../transitions/expand.module.css'
 import '../../../App.css'
 import { Link } from "react-router-dom";
+import ImageRedirector from "../../GeneralComponents/ImageRedirector"; 
+
+//create reference to my images objects
+const images = ImageRedirector();
 
 const Explore = () => {
     const [isOpen, setOffer] = useState(false)
@@ -58,7 +62,7 @@ export default function NavBar() {
             <ul className={styles.navList}>
                 <li className={styles.logo}>
                     <Link to="/">
-                        <img className={styles.logoImg} src={'/images/QCC_logo.png'} alt="Logo" />
+                        <img className={styles.logoImg} src={images['QCC_logo.jpg'].default} alt="Logo" />
                     </Link>
                 </li>
                 <li className={styles.slider}

@@ -21,7 +21,6 @@ export default function Cakes() {
     const [isCupcake, setIsCupcake] = useState(false)
     const [isCreamy, setIsCreamy] = useState(false)
     const [isNotCreamy, setIsNotCreamy] = useState(false)
-    const [isOpen, setIsOpen] = useState(false)
 
     let cakes = data.cake
 
@@ -279,7 +278,6 @@ export default function Cakes() {
             dimension={cake.dimension} 
             desc={cake.description} 
             price={cake.price}
-            isOpen={isOpen}
         />
     )
 
