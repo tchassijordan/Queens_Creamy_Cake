@@ -10,7 +10,7 @@ export default function CakeItem(props) {
     //const [isOpen, setIsOpen] = useState(false)
     return (
         <div className={styles.containerBig}>
-            <div>
+            <div className={styles.imgContainer}>
                 <img className={styles.cakeImg} src={`${images[props.img].default}`} alt="cake" />
                 <p className={styles.price}><strong className={styles.priceIn}
                 >Price: </strong>{props.price}</p>
@@ -31,7 +31,10 @@ export default function CakeItem(props) {
                 >{props.desc}</p>
                 <Link 
                     className={styles.btn} 
-                    to={`/store/cakes/${props.id}`}
+                    to={{
+                        pathname:`/store/${props.category.parent_name}/${props.id}`,
+                        state:{props}
+                    }}
                     //onClick={()=>setIsOpen(!isOpen)}    
                 >Explore</Link>
             </div>     

@@ -23,7 +23,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "json-server": "json-server --watch /home/jay/GitHub/Queens_Creamy_Cake/src/assets/server/db.json --port 5000",
+    "dev": "concurrently \"npm start\" \"npm run json-server\""
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +46,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
-  }
+    "concurrently": "^6.4.0",
+    "gh-pages": "^3.2.3",
+    "json-server": "^0.17.0"
+  },
+  "proxy": "http://localhost:5000"
 }

@@ -1,4 +1,4 @@
-import '../../App.css';
+import '../../../App.css';
 import Carousel from './Carousel/Carousel'
 import MainHomeContent from './MainHomeContent/MainHomeContent'
 import InstagramGallery from './InstagramGallery/InstagramGallery'

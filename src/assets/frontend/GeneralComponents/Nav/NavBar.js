@@ -3,7 +3,7 @@ import {FaChevronDown, FaChevronUp} from 'react-icons/fa'
 import { CSSTransition } from 'react-transition-group';
 import styles from "./NavBar.module.css"
 import fadeTransition from '../transitions/expand.module.css'
-import '../../../App.css'
+import '../../../../App.css'
 import { Link } from "react-router-dom";
 import ImageRedirector from "../../GeneralComponents/ImageRedirector"; 
 

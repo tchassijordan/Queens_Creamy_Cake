@@ -10,10 +10,9 @@
 .cakeContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    overflow: auto;
-    white-space: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.85em;
 }
 
 .title {
@@ -59,12 +58,12 @@
     background-color: cadetblue;
     color: white;
     padding: 0.35em 0.85em;
+    transition: background 300ms;
 }
 
 .navLink:hover,
 .navLink:focus,
-.navLink:active {
-    color: hotpink;
+.navLink:active {   
     background-color: lightslategray;
 }
 
@@ -80,10 +79,4 @@
 .navWLink:focus {
     background-color: rgba(119, 136, 153, 0.911);
     color: white;
-}
-
-@media (min-width: 998px) {
-    .cakeContainer {
-        justify-content: flex-start;
-    }
 }

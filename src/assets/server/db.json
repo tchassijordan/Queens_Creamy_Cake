@@ -1,0 +1,867 @@
+{
+    "cakes": [
+        {
+            "id": "C01",
+            "img": "anniversary-promo-cake.jpg",
+            "title": "Joyeau Anniversaire",
+            "category": {
+                "parent_name": "cakes",
+                "parent_type": "birthday",
+                "type": "simple",
+                "shape": "round"
+            },
+            "dimension": "16cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "C02",
+            "img": "heart-cake.jpg",
+            "title": "Heart Birthday Cake",
+            "category": {
+                "parent_name": "cakes",
+                "parent_type": "birthday",
+                "type": "simple",
+                "shape": "heart"
+            },
+            "dimension": "19cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "C03",
+            "img": "pink-square-cake.jpg",
+            "title": "Birthday Cake",
+            "category": {
+                "parent_name": "cakes",
+                "parent_type": "birthday",
+                "type": "simple",
+                "shape": "square"
+            },
+            "dimension": "10cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "C04",
+            "img": "birthday-cake.jpg",
+            "title": "Birthday Cake",
+            "category": {
+                "parent_name": "cakes",
+                "parent_type": "birthday",
+                "type": "simple",
+                "shape": "round"
+            },
+            "dimension": "10cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "C05",
+            "img": "anniversary-cake.jpg",
+            "title": "Wedding Cake",
+            "category": {
+                "parent_name": "cakes",
+                "parent_type": "wedding",
+                "type": "traditional"
+            },
+            "dimension": "21cm * 26cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "C06",
+            "img": "musical.jpg",
+            "title": "Wedding Cake",
+            "category": {
+                "parent_name": "cakes",
+                "parent_type": "wedding",
+                "type": "classical"
+            },
+            "dimension": "21cm * 26cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "C07",
+            "img": "red-cupcake.jpg",
+            "title": "Cupcakes",
+            "category": {
+                "parent_name": "cakes",
+                "parent_type": "cupcakes",
+                "type": "cream"
+            },
+            "dimension": "5cm * 5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "C08",
+            "img": "cupcake3.jpg",
+            "title": "Cupcakes",
+            "category": {
+                "parent_name": "cakes",
+                "parent_type": "cupcakes",
+                "type": "cream"
+            },
+            "dimension": "5cm * 5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "C09",
+            "img": "brown-cupcakes.jpg",
+            "title": "Cupcakes",
+            "category": {
+                "parent_name": "cakes",
+                "parent_type": "cupcakes",
+                "type": "no-cream"
+            },
+            "dimension": "5cm * 5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "C10",
+            "img": "twins-cake.jpg",
+            "title": "Birthday Cake",
+            "category": {
+                "parent_name": "cakes",
+                "parent_type": "birthday",
+                "type": "simple",
+                "shape": "number"
+            },
+            "dimension": "20cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "C11",
+            "img": "makeup-cake.jpg",
+            "title": "Makeup Cake",
+            "category": {
+                "parent_name": "cakes",
+                "parent_type": "birthday",
+                "type": "simple",
+                "shape": "barbie"
+            },
+            "dimension": "15cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "C12",
+            "img": "black-gold-cake.jpg",
+            "title": "Cake",
+            "category": {
+                "parent_name": "cakes",
+                "parent_type": "birthday",
+                "type": "simple",
+                "shape": "square"
+            },
+            "dimension": "7cm * 7cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        }
+    ],
+    "pastel_de_viande": [
+        {
+            "id": "PV01",
+            "img": "bulb.jpg",
+            "title": "Pastel de Viande",
+            "category": {
+                "parent_name": "pastel_de_viande",
+                "parent_type": "",
+                "type": "",
+                "shape": ""
+            },
+            "dimension": "10cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "PV02",
+            "img": "bulb.jpg",
+            "title": "Pastel de Viande",
+            "category": {
+                "parent_name": "pastel_de_viande",
+                "parent_type": "",
+                "type": "",
+                "shape": ""
+            },
+            "dimension": "10cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "PV03",
+            "img": "bulb.jpg",
+            "title": "Pastel de Viande",
+            "category": {
+                "parent_name": "pastel_de_viande",
+                "parent_type": "",
+                "type": "",
+                "shape": ""
+            },
+            "dimension": "10cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        }
+    ],
+    "donuts": [
+        {
+            "id": "D01",
+            "img": "donuts.jpg",
+            "title": "Donuts",
+            "category": {
+                "parent_name": "donuts",
+                "parent_type": "",
+                "type": "",
+                "shape": ""
+            },
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "D02",
+            "img": "donuts.jpg",
+            "title": "Donuts",
+            "category": {
+                "parent_name": "donuts",
+                "parent_type": "",
+                "type": "",
+                "shape": ""
+            },
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "D03",
+            "img": "donuts.jpg",
+            "title": "Donuts",
+            "category": {
+                "parent_name": "donuts",
+                "parent_type": "",
+                "type": "",
+                "shape": ""
+            },
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        }
+    ],
+    "tarte": [
+        {
+            "id": "T01",
+            "img": "bulb.jpg",
+            "title": "Tarte au Citron",
+            "category": {
+                "parent_name": "tarte",
+                "parent_type": "tarte",
+                "type": "citron",
+                "shape": ""
+            },
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "T02",
+            "img": "bulb.jpg",
+            "title": "Tarte à Courgettes",
+            "category": {
+                "parent_name": "tarte",
+                "parent_type": "tarte",
+                "type": "courgettes",
+                "shape": ""
+            },
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "T03",
+            "img": "bulb.jpg",
+            "title": "Tarte à Suisons",
+            "category": {
+                "parent_name": "tarte",
+                "parent_type": "tarte",
+                "type": "suisons",
+                "shape": ""
+            },
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "T04",
+            "img": "bulb.jpg",
+            "title": "Tarte à Epinards",
+            "category": {
+                "parent_name": "tarte",
+                "parent_type": "tarte",
+                "type": "epinards",
+                "shape": ""
+            },
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        }
+    ],
+    "popcake": [
+        {
+            "id": "PC01",
+            "img": "bulb.jpg",
+            "title": "Popcake à Thème",
+            "category": {
+                "parent_name": "popcake",
+                "parent_type": "",
+                "type": "",
+                "shape": ""
+            },
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "PC02",
+            "img": "bulb.jpg",
+            "title": "Popcake à Thème",
+            "category": {
+                "parent_name": "popcake",
+                "parent_type": "",
+                "type": "",
+                "shape": ""
+            },
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "PC03",
+            "img": "bulb.jpg",
+            "title": "Popcake à Thème",
+            "category": {
+                "parent_name": "popcake",
+                "parent_type": "",
+                "type": "",
+                "shape": ""
+            },
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        }
+    ],
+    "quiche_loriane": [
+        {
+            "id": "QC01",
+            "img": "bulb.jpg",
+            "title": "Quiche Loriane",
+            "category": {
+                "parent_name": "quiche_loriane",
+                "parent_type": "",
+                "type": "",
+                "shape": ""
+            },
+            "flavour": [
+                "Patte",
+                "Lardons",
+                "Crème Fraiche",
+                "oeufs"
+            ],
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "QC02",
+            "img": "bulb.jpg",
+            "title": "Quiche Loriane",
+            "category": {
+                "parent_name": "quiche_loriane",
+                "parent_type": "",
+                "type": "",
+                "shape": ""
+            },
+            "flavour": [
+                "Patte",
+                "Lardons",
+                "Crème Fraiche",
+                "oeufs"
+            ],
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "QC03",
+            "img": "bulb.jpg",
+            "title": "Quiche Loriane",
+            "category": {
+                "parent_name": "quiche_loriane",
+                "parent_type": "",
+                "type": "",
+                "shape": ""
+            },
+            "flavour": [
+                "Patte",
+                "Lardons",
+                "Crème Fraiche",
+                "oeufs"
+            ],
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        }
+    ]
+}

@@ -1,14 +1,13 @@
-import React, { useState, useEffect } from "react";
-import CakeItem from "./CakeItem"
+import React, { useState } from "react";
 import styles from "./Cakes.module.css"
 import { CSSTransition } from "react-transition-group";
 import expandTransition from "../GeneralComponents/transitions/expand.module.css"
-import * as API from "../business/bs_utility"
+import StateHandler from "../../business/StateHandler";
+import StoreComponent from "./StoreComponent";
 
 export default function Cakes() {
-    let [isReady, setIsReady] = useState(false)
-    let [cakesFix, setCakesFix] = useState([])
-    let cakes = cakesFix
+    const {data, isReady} = StateHandler('cakes')
+    let cakes = data
     const [isAll, setIsAll] = useState(false)
     const [isWedding, setIsWedding] = useState(false)
     const [isTradWedding, setIsTradWedding] = useState(false)
@@ -24,18 +23,6 @@ export default function Cakes() {
     const [isCupcake, setIsCupcake] = useState(false)
     const [isCreamy, setIsCreamy] = useState(false)
     const [isNotCreamy, setIsNotCreamy] = useState(false)
-
-    const getCakes = async () => {
-        const data = await API.handleAllItems('cake');
-        setCakesFix(data)
-        setIsReady(true)
-    }
-
-    useEffect(()=> {
-        if(!isReady) {
-            getCakes();
-        }
-    })
 
     const setInitial = () => {
         setIsAll(false)
@@ -244,76 +231,57 @@ export default function Cakes() {
 
     const cakesHandler = () => {
         if (isWedding) {
-            cakes = cakesFix.filter(cake => cake.category.parent_type === "wedding")
+            cakes = data.filter(cake => cake.category.parent_type === "wedding")
             if (isTradWedding && isWedding && !isClassicWedding)
-                cakes = cakesFix.filter(cake => cake.category.parent_type === "wedding" && cake.category.type === "traditional")
+                cakes = data.filter(cake => cake.category.parent_type === "wedding" && cake.category.type === "traditional")
             else if (isClassicWedding && isWedding && !isTradWedding)
-                cakes = cakesFix.filter(cake => cake.category.parent_type === "wedding" && cake.category.type === "classical")
+                cakes = data.filter(cake => cake.category.parent_type === "wedding" && cake.category.type === "classical")
             return cakes
         } else if (isBirthday)
-            cakes = cakesFix.filter(cake => cake.category.parent_type === "birthday")
+            cakes = data.filter(cake => cake.category.parent_type === "birthday")
         else if (isSimple) {
-            cakes = cakesFix.filter(cake => cake.category.type === "simple")
+            cakes = data.filter(cake => cake.category.type === "simple")
             if (isHeartShape)
-                cakes = cakesFix.filter(cake => cake.category.type === "simple" && cake.category.shape === "heart")
+                cakes = data.filter(cake => cake.category.type === "simple" && cake.category.shape === "heart")
             else if (isSquareShape)
-                cakes = cakesFix.filter(cake => cake.category.type === "simple" && cake.category.shape === "square")
+                cakes = data.filter(cake => cake.category.type === "simple" && cake.category.shape === "square")
             else if (isNumberShape)
-                cakes = cakesFix.filter(cake => cake.category.type === "simple" && cake.category.shape === "number")
+                cakes = data.filter(cake => cake.category.type === "simple" && cake.category.shape === "number")
             else if (isRoundShape)
-                cakes = cakesFix.filter(cake => cake.category.type === "simple" && cake.category.shape === "round")
+                cakes = data.filter(cake => cake.category.type === "simple" && cake.category.shape === "round")
             else if (isBarbieShape)
-                cakes = cakesFix.filter(cake => cake.category.type === "simple" && cake.category.shape === "barbie")
+                cakes = data.filter(cake => cake.category.type === "simple" && cake.category.shape === "barbie")
             else if (isRectangularShape)
-                cakes = cakesFix.filter(cake => cake.category.type === "simple" && cake.category.shape === "rectangular")
+                cakes = data.filter(cake => cake.category.type === "simple" && cake.category.shape === "rectangular")
             return cakes
         } else if (isCupcake) {
-            cakes = cakesFix.filter(cake => cake.category.parent_type === "cupcakes")
+            cakes = data.filter(cake => cake.category.parent_type === "cupcakes")
             if (isCreamy)
-                cakes = cakesFix.filter(cake => cake.category.parent_type === "cupcakes" && cake.category.type === "cream")
+                cakes = data.filter(cake => cake.category.parent_type === "cupcakes" && cake.category.type === "cream")
             else if (isNotCreamy)
-                cakes = cakesFix.filter(cake => cake.category.parent_type === "cupcakes" && cake.category.type === "no-cream")
+                cakes = data.filter(cake => cake.category.parent_type === "cupcakes" && cake.category.type === "no-cream")
             return cakes
         } else if (isAll)
-            cakes = cakesFix
+            cakes = data
         return cakes
     }
 
     cakesHandler()
-
-    const cakesDisplay = cakes.map(cake =>
-        <CakeItem
-            key={cake.id}
-            id={cake.id}
-            title={cake.title}
-            img={cake.img}
-            dimension={cake.dimension}
-            desc={cake.description}
-            price={cake.price}
-            category={cake.category}
-        />
-    )
 
     return (
         <div className={styles.container}>
             {
                 isReady ? 
                 <> 
-                
-                    <h2 className={styles.mainTitle}>Cakes</h2>
-                    <hr />
-                    <Explore />
-                    <div className={styles.cakesHolder}>
-                        <div className={styles.cakeContainer}>
-                            {cakesDisplay}
-                        </div>
-                    </div>
+                    <StoreComponent 
+                        data={cakes}
+                        title="Cakes"
+                        exploreComponent={Explore}
+                    />
                 </> 
                 :
                 <h1>Data is loading...</h1>
             }
-            
-
         </div>
 
     )
