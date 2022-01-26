@@ -359,7 +359,8 @@
     "pastel_de_viande": [
         {
             "id": "PV01",
-            "img": "bulb.jpg",
+            "img": "pastel_de_viande/pastel_de_viande_13.jpg",
+            "sub_images": ["pastel_de_viande/pastel_de_viande_14.jpg", "pastel_de_viande/pastel_de_viande_15.jpg", "pastel_de_viande/pastel_de_viande_16.jpg"],
             "title": "Pastel de Viande",
             "category": {
                 "parent_name": "pastel_de_viande",
@@ -389,7 +390,8 @@
         },
         {
             "id": "PV02",
-            "img": "bulb.jpg",
+            "img": "pastel_de_viande/pastel_de_viande_12.jpg",
+            "sub_images": ["pastel_de_viande/pastel_de_viande_11.jpg", "pastel_de_viande/pastel_de_viande_10.jpg", "pastel_de_viande/pastel_de_viande_9.jpg"],
             "title": "Pastel de Viande",
             "category": {
                 "parent_name": "pastel_de_viande",
@@ -419,7 +421,39 @@
         },
         {
             "id": "PV03",
-            "img": "bulb.jpg",
+            "img": "pastel_de_viande/pastel_de_viande_6.jpg",
+            "sub_images": ["pastel_de_viande/pastel_de_viande_7.jpg", "pastel_de_viande/pastel_de_viande_8.jpg", "pastel_de_viande/pastel_de_viande_5.jpg"],
+            "title": "Pastel de Viande",
+            "category": {
+                "parent_name": "pastel_de_viande",
+                "parent_type": "",
+                "type": "",
+                "shape": ""
+            },
+            "dimension": "10cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "PV04",
+            "img": "pastel_de_viande/pastel_de_viande_1.jpg",
+            "sub_images": ["pastel_de_viande/pastel_de_viande_2.jpg", "pastel_de_viande/pastel_de_viande_3.jpg", "pastel_de_viande/pastel_de_viande_4.jpg", "pastel_de_viande/pastel_de_viande_4_1.jpg"],
             "title": "Pastel de Viande",
             "category": {
                 "parent_name": "pastel_de_viande",
@@ -451,7 +485,8 @@
     "donuts": [
         {
             "id": "D01",
-            "img": "donuts.jpg",
+            "img": "donuts/donut_4.jpg",
+            "sub_images": ["donuts/donut_3.jpg", "donuts/donut_5.jpg", "donuts/donut_2.jpg", "donuts/donut_7.jpg"],
             "title": "Donuts",
             "category": {
                 "parent_name": "donuts",
@@ -481,7 +516,8 @@
         },
         {
             "id": "D02",
-            "img": "donuts.jpg",
+            "img": "donuts/donut_8.jpg",
+            "sub_images": ["donuts/donut_19.jpg", "donuts/donut_10.jpg", "donuts/donut_20.jpg", "donuts/donut_9.jpg"],
             "title": "Donuts",
             "category": {
                 "parent_name": "donuts",
@@ -511,7 +547,39 @@
         },
         {
             "id": "D03",
-            "img": "donuts.jpg",
+            "img": "donuts/donut_13.jpg",
+            "sub_images": ["donuts/donut_18.jpg", "donuts/donut_16.jpg", "donuts/donut_6.jpg", "donuts/donut_7.jpg"],
+            "title": "Donuts",
+            "category": {
+                "parent_name": "donuts",
+                "parent_type": "",
+                "type": "",
+                "shape": ""
+            },
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "D04",
+            "img": "donuts/donut_21.jpg",
+            "sub_images": ["donuts/donut_12.jpg", "donuts/donut_17.jpg", "donuts/donut_15.jpg", "donuts/donut_16.jpg"],
             "title": "Donuts",
             "category": {
                 "parent_name": "donuts",
@@ -543,7 +611,8 @@
     "tarte": [
         {
             "id": "T01",
-            "img": "bulb.jpg",
+            "img": "tarte/tarte_1.jpg",
+            "sub_images": ["tarte/tarte_3.jpg", "tarte/tarte_2.jpg"],
             "title": "Tarte au Citron",
             "category": {
                 "parent_name": "tarte",
@@ -573,7 +642,8 @@
         },
         {
             "id": "T02",
-            "img": "bulb.jpg",
+            "img": "tarte/tarte_4.jpg",
+            "sub_images": ["tarte/tarte_5.jpg", "tarte/tarte_6.jpg"],
             "title": "Tarte à Courgettes",
             "category": {
                 "parent_name": "tarte",
@@ -603,7 +673,8 @@
         },
         {
             "id": "T03",
-            "img": "bulb.jpg",
+            "img": "tarte/tarte_7.jpg",
+            "sub_images": ["tarte/tarte_9.jpg", "tarte/tarte_8.jpg"],
             "title": "Tarte à Suisons",
             "category": {
                 "parent_name": "tarte",
@@ -633,7 +704,8 @@
         },
         {
             "id": "T04",
-            "img": "bulb.jpg",
+            "img": "tarte/tarte_9.jpg",
+            "sub_images": ["tarte/tarte_10.jpg", "tarte/tarte_11.jpg"],
             "title": "Tarte à Epinards",
             "category": {
                 "parent_name": "tarte",
@@ -665,7 +737,8 @@
     "popcake": [
         {
             "id": "PC01",
-            "img": "bulb.jpg",
+            "img": "popcakes/popcake_1.jpg",
+            "sub_images": ["popcakes/popcake_2.jpg", "popcakes/popcake_3.jpg", "popcakes/popcake_4.jpg"],
             "title": "Popcake à Thème",
             "category": {
                 "parent_name": "popcake",
@@ -695,7 +768,8 @@
         },
         {
             "id": "PC02",
-            "img": "bulb.jpg",
+            "img": "popcakes/popcake_5.jpg",
+            "sub_images": ["popcakes/popcake_6.jpg", "popcakes/popcake_7.jpg", "popcakes/popcake_8.jpg"],
             "title": "Popcake à Thème",
             "category": {
                 "parent_name": "popcake",
@@ -725,7 +799,39 @@
         },
         {
             "id": "PC03",
-            "img": "bulb.jpg",
+            "img": "popcakes/popcake_9.jpg",
+            "sub_images": ["popcakes/popcake_10.jpg", "popcakes/popcake_11.jpg", "popcakes/popcake_2.jpg"],
+            "title": "Popcake à Thème",
+            "category": {
+                "parent_name": "popcake",
+                "parent_type": "",
+                "type": "",
+                "shape": ""
+            },
+            "dimension": "5cm",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
+            "price": "5 FCFA",
+            "delivery_information": [
+                "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
+                "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
+                "Since cakes are perishable in nature, we attempt delivery of your order only once. The delivery cannot be redirected to any other address.",
+                "This product is hand delivered and will not be delivered along with courier products.",
+                "Occasionally, substitutions of flavours/designs is necessary due to temporary and/or regional unavailability issues."
+            ],
+            "care_information": [
+                "Store cream cakes in a refrigerator. Fondant cakes should be stored in an air conditioned environment.",
+                "Slice and serve the cake at room temperature and make sure it is not exposed to heat.",
+                "Use a serrated knife to cut a fondant cake.",
+                "Sculptural elements and figurines may contain wire supports or toothpicks or wooden skewers for support.",
+                "Please check the placement of these items before serving to small children.",
+                "The cake should be consumed within 24 hours.",
+                "Enjoy your cake!"
+            ]
+        },
+        {
+            "id": "PC04",
+            "img": "popcakes/popcake_12.jpg",
+            "sub_images": ["popcakes/popcake_14.jpg", "popcakes/popcake_13.jpg", "popcakes/popcake_4.jpg"],
             "title": "Popcake à Thème",
             "category": {
                 "parent_name": "popcake",
@@ -757,7 +863,8 @@
     "quiche_loriane": [
         {
             "id": "QC01",
-            "img": "bulb.jpg",
+            "img": "quiche_loriane/quiche_loriane_3.jpg",
+            "sub_images": ["quiche_loriane/quiche_loriane_3_1.jpg", "quiche_loriane/quiche_loriane_3_2.jpg", "quiche_loriane/quiche_loriane_3_3.jpg"],
             "title": "Quiche Loriane",
             "category": {
                 "parent_name": "quiche_loriane",
@@ -793,7 +900,8 @@
         },
         {
             "id": "QC02",
-            "img": "bulb.jpg",
+            "img": "quiche_loriane/quiche_loriane_5.jpg",
+            "sub_images": ["quiche_loriane/quiche_loriane_5_1.jpg", "quiche_loriane/quiche_loriane_6.jpg", "quiche_loriane/quiche_loriane_7.jpg"],
             "title": "Quiche Loriane",
             "category": {
                 "parent_name": "quiche_loriane",
@@ -829,7 +937,8 @@
         },
         {
             "id": "QC03",
-            "img": "bulb.jpg",
+            "img": "quiche_loriane/quiche_loriane_4.jpg",
+            "sub_images": ["quiche_loriane/quiche_loriane_4_1.jpg", "quiche_loriane/quiche_loriane_1.jpg", "quiche_loriane/quiche_loriane_2.jpg"],
             "title": "Quiche Loriane",
             "category": {
                 "parent_name": "quiche_loriane",

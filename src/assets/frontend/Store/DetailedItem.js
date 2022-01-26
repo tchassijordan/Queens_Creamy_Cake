@@ -7,17 +7,17 @@ const images = ImageRedirector()
 
 export default function DetailedItem({ match, location }) {
     let [isReady, setIsReady] = useState(false)
-    const [cakes, setCakes] = useState({})
+    const [data, setData] = useState({})
 
-    const getCake = async () => {
+    const getItem = async () => {
         const data = await API.handleItem(location.state.props.category.parent_name, match.params.id);
-        setCakes(data)
+        setData(data)
         setIsReady(true)
     }
 
     useEffect(()=> {
         if(!isReady) {
-            getCake();
+            getItem();
         }
     })
 
@@ -26,11 +26,18 @@ export default function DetailedItem({ match, location }) {
             {
                 isReady ? 
                 <>
-                   <h1>{cakes.title}</h1>
-                   <img src={images[cakes.img].default} alt="specific item" />
-                   <p>Dimension: {cakes.dimension}</p>
-                   <p>{cakes.price}</p>
-                   <p>{cakes.description}</p>
+                   <h1>{data.title}</h1>
+                   <img src={images[data.img].default} alt="specific item" />
+                   <p>Dimension: {data.dimension}</p>
+                   <p>{data.price}</p>
+                   <p>{data.description}</p>
+                   {data.sub_images ? 
+                        <div style={{display: "flex", flexDirection: "row"}}>
+                            {data.sub_images.map(url => 
+                                <img src={images[url].default} alt="extented imagery" key={url} />
+                            )}
+                        </div> : null
+                    }
                 </>
                 : 
                 <>

@@ -19,6 +19,7 @@ export default function StoreComponent(props) {
                         desc={item.description}
                         category={item.category}
                         price={item.price}
+                        info={item.price}
                     />
                 )}
             </div>
