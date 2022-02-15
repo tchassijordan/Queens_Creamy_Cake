@@ -1,0 +1,301 @@
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 74em;
+}
+
+.details_container {
+    display: flex;
+    padding: 3em 3em 1.75em;
+    gap: 2.75em;
+    height: 550px;
+}
+
+/*  
+=====================
+    IMAGES AREA
+===================== 
+*/
+
+.images_container {
+    flex-basis: 55%;
+    display: flex;
+    gap: 2em;
+    height: 25em;
+}
+
+.mainImgHolder {
+    flex-basis: 80%;
+    order: 3;
+    margin-left: 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0.2px rgb(12, 11, 11);
+}
+
+.side_images_area {
+    flex-basis: 15%;
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    margin-right: 0;
+}
+
+.inactiveImg {
+    height: 5em;
+    margin: 0 0 1em;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: border 300ms;
+}
+
+.inactiveImg:hover,
+.inactiveImg:focus {
+    border: 1px solid rgb(255, 105, 180);
+    cursor: pointer;
+}
+
+
+
+/*  
+=========================
+    DESCRIPTION AREA
+========================= 
+*/
+
+.info_container {
+    flex-basis: 45%;
+    height: 25.625em;
+    overflow-y: scroll;
+}
+
+
+.title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.85rem;
+    position: relative;
+}
+
+.title::after {
+    content: '';
+    top: 500px;
+    height: 1em;
+    width: 100%;
+    background-color: rgb(255, 0, 149);
+}
+
+.priceArea {
+    margin: 1em 0 0;
+    letter-spacing: 1px;
+}
+
+.price {
+    font-size: 1.75rem;
+    color: rgb(255, 0, 149);
+}
+
+.priceCurrency {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+.descriptionTitle,
+.deliveryInfoTitle,
+.careInfoTitle {
+    border-bottom: 1px solid rgba(37, 35, 35, 0.267);
+    font-size: 1.1111rem;
+    font-weight: 700;
+    padding-bottom: 0.5em;
+    opacity: 0.85;
+}
+
+.description,
+.dimension {
+    padding-left: 0.5em;
+}
+
+.dimension {
+    padding-left: 0.65em;
+}
+
+.dimensionNum {
+    font-size: 1.2em;
+    opacity: 0.7;
+}
+
+.descriptionSubTitle {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.descriptionSubTitle::after {
+    content: ':';
+}
+
+.list,
+.descriptionText {
+    list-style-type: disc;
+    line-height: 1.5;
+}
+
+.list {
+    padding-left: 1em;
+}
+
+.listItem,
+.descriptionText,
+.dimension {
+    font-size: 0.735rem;
+    letter-spacing: 1px;
+}
+
+/*  
+=========================
+    REVIEW AREA
+========================= 
+*/
+
+.reviews_container {
+    margin: 0 3em 3em;
+}
+
+.reviewTitle {
+    margin: 0 0 1.35em;
+    font-size: 1.85rem;
+}
+
+.reviewFlex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.reviewItem {
+    display: flex;
+    gap: 1em;
+    min-width: 15.5em;
+    flex-basis: 30%;
+    box-shadow: 0px 0px 2px 0px black;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.reviewerInfo {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    align-items: center;
+}
+
+.reviewerImg {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+
+.reviewerName {
+    font-size: 0.775rem;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 0.85em;
+    opacity: 0.85;
+}
+
+.reviewDescription {
+    flex-basis: 65%;
+}
+
+.reviewRating {
+    color: gold;
+    font-size: 0.735rem;
+    font-weight: 700;
+    margin: 0 0 1em;
+}
+
+.reviewRating::before {
+    content: "Rating: ";
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 0.735rem;
+}
+
+.reviewText {
+    font-size: 0.735rem;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin: 0;
+}
+
+@media (max-width: 948px) {
+    .reviewItem {
+        flex-direction: column;
+        justify-content: center;
+        flex-basis: 40%;
+    }
+
+    .reviewerInfo {
+        flex-direction: row;
+        gap: 1em;
+    }
+}
+
+@media (max-width: 997px) {
+    .details_container {
+        height: 100%;
+    }
+
+    .images_container {
+        flex-direction: column;
+        height: 25.625em;
+    }
+
+    .side_images_area {
+        flex-direction: row;
+        order: 5;
+        gap: 1em;
+    }
+}
+
+@media (max-width: 823px) {
+    .details_container {
+        gap: 0.75em;
+    }
+
+    .images_container {
+        max-height: 28em;
+        height: 28em;
+    }
+
+    .details_container {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .mainImgHolder {
+        flex-basis: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .images_container {
+        max-height: 23em;
+        height: 23em;
+    }
+
+    .inactiveImg {
+        height: 3.5em;
+    }
+}
+
+@media (max-width: 571px) {
+    .reviewItem {
+        min-width: 100%;
+    }
+}

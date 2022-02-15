@@ -16,3 +16,21 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
+
+@media (min-width: 490px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 675px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}

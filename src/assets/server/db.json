@@ -12,7 +12,7 @@
             },
             "dimension": "16cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -28,6 +28,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -42,7 +65,7 @@
             },
             "dimension": "19cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -58,6 +81,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -72,7 +118,7 @@
             },
             "dimension": "10cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -88,6 +134,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -102,7 +171,7 @@
             },
             "dimension": "10cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -118,6 +187,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -131,7 +223,7 @@
             },
             "dimension": "21cm * 26cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -147,6 +239,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -160,7 +275,7 @@
             },
             "dimension": "21cm * 26cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -176,6 +291,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -189,7 +327,7 @@
             },
             "dimension": "5cm * 5cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -205,6 +343,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -218,7 +379,7 @@
             },
             "dimension": "5cm * 5cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -234,6 +395,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -247,7 +431,7 @@
             },
             "dimension": "5cm * 5cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -263,6 +447,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -277,7 +484,7 @@
             },
             "dimension": "20cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -293,6 +500,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -307,7 +537,7 @@
             },
             "dimension": "15cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -323,6 +553,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -337,7 +590,7 @@
             },
             "dimension": "7cm * 7cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -353,6 +606,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         }
     ],
@@ -370,7 +646,7 @@
             },
             "dimension": "10cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -386,6 +662,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -401,7 +700,7 @@
             },
             "dimension": "10cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -417,6 +716,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -432,7 +754,7 @@
             },
             "dimension": "10cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -448,6 +770,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -463,7 +808,7 @@
             },
             "dimension": "10cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -479,6 +824,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         }
     ],
@@ -496,7 +864,7 @@
             },
             "dimension": "5cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -512,6 +880,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -527,7 +918,7 @@
             },
             "dimension": "5cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -543,6 +934,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -558,7 +972,7 @@
             },
             "dimension": "5cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -574,6 +988,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -589,7 +1026,7 @@
             },
             "dimension": "5cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -605,6 +1042,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         }
     ],
@@ -622,7 +1082,7 @@
             },
             "dimension": "5cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -638,6 +1098,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -653,7 +1136,7 @@
             },
             "dimension": "5cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -669,6 +1152,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -684,7 +1190,7 @@
             },
             "dimension": "5cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -700,6 +1206,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -715,7 +1244,7 @@
             },
             "dimension": "5cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -731,14 +1260,37 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         }
     ],
     "popcake": [
         {
             "id": "PC01",
-            "img": "popcakes/popcake_1.jpg",
-            "sub_images": ["popcakes/popcake_2.jpg", "popcakes/popcake_3.jpg", "popcakes/popcake_4.jpg"],
+            "img": "popcakes/popcake_4.jpg",
+            "sub_images": ["popcakes/popcake_2.jpg", "popcakes/popcake_3.jpg", "popcakes/popcake_1.jpg"],
             "title": "Popcake à Thème",
             "category": {
                 "parent_name": "popcake",
@@ -748,7 +1300,7 @@
             },
             "dimension": "5cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -764,12 +1316,35 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
             "id": "PC02",
-            "img": "popcakes/popcake_5.jpg",
-            "sub_images": ["popcakes/popcake_6.jpg", "popcakes/popcake_7.jpg", "popcakes/popcake_8.jpg"],
+            "img": "popcakes/popcake_7.jpg",
+            "sub_images": ["popcakes/popcake_6.jpg", "popcakes/popcake_5.jpg", "popcakes/popcake_8.jpg"],
             "title": "Popcake à Thème",
             "category": {
                 "parent_name": "popcake",
@@ -779,7 +1354,7 @@
             },
             "dimension": "5cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -795,6 +1370,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -810,7 +1408,7 @@
             },
             "dimension": "5cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -826,12 +1424,35 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
             "id": "PC04",
-            "img": "popcakes/popcake_12.jpg",
-            "sub_images": ["popcakes/popcake_14.jpg", "popcakes/popcake_13.jpg", "popcakes/popcake_4.jpg"],
+            "img": "popcakes/popcake_4.jpg",
+            "sub_images": ["popcakes/popcake_14.jpg", "popcakes/popcake_13.jpg", "popcakes/popcake_12.jpg"],
             "title": "Popcake à Thème",
             "category": {
                 "parent_name": "popcake",
@@ -841,7 +1462,7 @@
             },
             "dimension": "5cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -857,6 +1478,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         }
     ],
@@ -880,7 +1524,7 @@
             ],
             "dimension": "5cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -896,6 +1540,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -917,7 +1584,7 @@
             ],
             "dimension": "5cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -933,6 +1600,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         },
         {
@@ -954,7 +1644,7 @@
             ],
             "dimension": "5cm",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nunc id malesuada egestas.",
-            "price": "5 FCFA",
+            "price": "5 ",
             "delivery_information": [
                 "Every cake we offer is handcrafted and since each chef has his/her own way of baking and designing a cake, there might be slight variation in the product in terms of design and shape.",
                 "The chosen delivery time is an estimate and depends on the availability of the product and the destination to which you want the product to be delivered.",
@@ -970,6 +1660,29 @@
                 "Please check the placement of these items before serving to small children.",
                 "The cake should be consumed within 24 hours.",
                 "Enjoy your cake!"
+            ],
+            "reviews": [
+                {
+                    "id": "1",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "2",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                },
+                {
+                    "id": "3",
+                    "rating": ["&#9733;", "&#9733;", "&#9733;", "&#9733;"],
+                    "img": "home_img/creaming_image.jpg",
+                    "text": "Very good cake, so soft and exactly how I wanted it",
+                    "username": "John Doe"
+                }
             ]
         }
     ]

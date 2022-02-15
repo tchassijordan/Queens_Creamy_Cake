@@ -8,7 +8,7 @@
     grid-row: 1 / -1;
     padding: 3em 2em;
     font-size: 0.75rem;
-    font-family: 'bree', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     z-index: 5;
 }
 
@@ -61,16 +61,25 @@
 .afImg,
 .logoImgContainer {
     max-height: 35em;
+    object-fit: cover;
+    object-position: center;
 }
 
 .logoImgContainer {
     background-color: black;
-    width: 100%;   
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+    width: 100%;
     padding: 3em;
+
+    /* Full height */
+    height: 37.5em;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .logoImg {
     max-width: 672px;
@@ -90,12 +99,12 @@
 
 .styledExploreImg {
     display: grid;
-    grid-template: 50px 300px 400px / 1fr ;
+    grid-template: 50px 300px 400px / 1fr;
 }
 
 .gelato {
     background: none;
-    grid-column: 1 / -1 ;
+    grid-column: 1 / -1;
     grid-row: 1 / 2;
     z-index: 1;
 }
@@ -172,10 +181,6 @@
 }
 
 @media (min-width: 560px) {
-    html {
-        font-size: 17px;
-    }
-
     .introContainer {
         flex-direction: row;
         gap: 2em;
@@ -197,25 +202,15 @@
         padding: 2em;
     }
 
-    .exploreItem{
+    .exploreItem {
         flex-basis: 50%;
         box-shadow: 0px 0px 5px 0px black;
     }
 }
 
-@media (min-width: 675px) {
-    html {
-      font-size: 18px;
-    }
 
-    
-}
-  
-  @media (min-width: 768px) {
-    html {
-      font-size: 19px;
-    }
 
+@media (min-width: 768px) {
     .introContainer {
         gap: 3.5em;
         padding: 3.5em;
@@ -237,11 +232,5 @@
     .exploreContainer {
         padding: 4em;
         gap: 4em;
-    }
-}
-
-@media (min-width: 1024px) {
-    html {
-        font-size: 21px;
     }
 }

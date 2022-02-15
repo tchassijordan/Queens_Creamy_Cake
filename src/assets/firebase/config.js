@@ -1,7 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import { getFirestore } from "firebase/firestore";
+import { getDatabase } from "firebase/database";
 import { getFireStorage } from "firebase/firestorage";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -15,10 +15,10 @@ const firebaseConfig = {
   storageBucket: "queens-creamy-cake.appspot.com",
   messagingSenderId: "816817423025",
   appId: "1:816817423025:web:74329e9c002bb033495890",
-  measurementId: "G-LEVM9BDS8F"
+  measurementId: "G-LEVM9BDS8F",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-const projectStorage = getFirestore();
+const rt_db = getDatabase(app);

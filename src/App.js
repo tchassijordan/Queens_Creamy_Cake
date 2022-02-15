@@ -13,6 +13,7 @@ import AboutPage from "./assets/frontend/About/AboutPage"
 import NavBar from "./assets/frontend/GeneralComponents/Nav/NavBar"
 import Footer from "./assets/frontend/GeneralComponents/Footer/Footer";
 import DetailedItem from "./assets/frontend/Store/DetailedItem";
+import "./App.css"
 
 export default function App() {
   return (
