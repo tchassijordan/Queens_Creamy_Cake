@@ -4,7 +4,7 @@
 
 .mainTitle {
     margin-left: 1em;
-    font-family: 'Lora', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .cakeContainer {
@@ -63,7 +63,7 @@
 
 .navLink:hover,
 .navLink:focus,
-.navLink:active {   
+.navLink:active {
     background-color: lightslategray;
 }
 

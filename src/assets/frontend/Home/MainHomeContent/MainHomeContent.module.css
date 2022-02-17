@@ -4,12 +4,9 @@
 }
 
 .about {
-    grid-column: 1 / -1;
-    grid-row: 1 / -1;
     padding: 3em 2em;
     font-size: 0.75rem;
     font-family: 'Ubuntu', sans-serif;
-    z-index: 5;
 }
 
 .about p {
@@ -18,13 +15,9 @@
     line-height: 1.6;
     letter-spacing: 1.5px;
     color: rgb(0, 0, 0);
-    text-shadow: 0px 0px 0px black;
 }
 
 .introContainer {
-    grid-column: 1 / -1;
-    grid-row: 1 / -1;
-    z-index: 5;
     padding: 3em 2em;
     display: flex;
     flex-direction: column;
@@ -41,9 +34,11 @@
 }
 
 .introItemImg {
-    border-radius: 0.5em;
-    box-shadow: 0px 0px 10px 0px black;
-    min-height: 12.5em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px black;
+    height: 20em;
+    object-fit: cover;
+    object-position: center;
 }
 
 .introItemTextTitle,
@@ -60,7 +55,7 @@
 
 .afImg,
 .logoImgContainer {
-    max-height: 35em;
+    max-height: 100vh;
     object-fit: cover;
     object-position: center;
 }
@@ -69,9 +64,9 @@
     background-color: black;
     width: 100%;
     padding: 3em;
-
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/queens-creamy-cake.appspot.com/o/images%2Ftarte%2Ftarte_1.jpg?alt=media&token=e7f30f3d-26e1-4231-8be7-4ff5df092db9");
     /* Full height */
-    height: 37.5em;
+    height: 45em;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -134,10 +129,8 @@
 .readMoreBtn {
     background-color: gold;
     background: linear-gradient(180deg, rgb(238, 255, 0), rgb(255, 123, 0));
-    color: black;
-    text-shadow: 0px 0px 10px rgb(255, 187, 0);
-    margin: 0 auto;
-    box-shadow: 0px 0px 10px 2px black;
+    color: rgb(0, 0, 0);
+    margin: 2em auto 0;
 }
 
 .readMoreBtn:hover,
@@ -196,6 +189,10 @@
         margin-bottom: 0;
     }
 
+    .introItemImg {
+        height: 50vh;
+    }
+
     .exploreContainer {
         display: flex;
         gap: 2em;
@@ -214,6 +211,10 @@
     .introContainer {
         gap: 3.5em;
         padding: 3.5em;
+    }
+
+    .introItemImg {
+        height: 80vh;
     }
 
     .about {
