@@ -21,11 +21,24 @@ export default function DetailedItem({ match, location }) {
     }
   });
 
-  const imgRef = useRef();
+  const mainImgRef = useRef();
+  const imgCollectionRef = useRef([]);
 
-  function handleActiveImage(url) {
-    imgRef.current.src = url;
+  function handleActiveImage(e) {
+    [
+      mainImgRef.current.src,
+      imgCollectionRef.current[e.target.dataset.index].src,
+    ] = [
+      imgCollectionRef.current[e.target.dataset.index].src,
+      mainImgRef.current.src,
+    ];
   }
+
+  const addToRef = (el) => {
+    if (el && !imgCollectionRef.current.includes(el)) {
+      imgCollectionRef.current.push(el);
+    }
+  };
 
   return (
     <main>
@@ -38,17 +51,19 @@ export default function DetailedItem({ match, location }) {
                   src={data.img}
                   className={styles.mainImgHolder}
                   alt="specific item"
-                  ref={imgRef}
+                  ref={mainImgRef}
                 />
                 {data.sub_images ? (
                   <div className={styles.side_images_area}>
-                    {data.sub_images.map((url) => (
+                    {data.sub_images.map((url, index) => (
                       <img
+                        ref={addToRef}
                         src={url}
                         alt="extented imagery"
                         key={url}
+                        data-index={index}
                         className={styles.inactiveImg}
-                        onClick={() => handleActiveImage(url)}
+                        onClick={(e) => handleActiveImage(e)}
                       />
                     ))}
                   </div>
@@ -135,7 +150,7 @@ export default function DetailedItem({ match, location }) {
         </>
       ) : (
         <>
-          <h3>Loading...</h3>
+          <h3>The data is still loading please wait...</h3>
         </>
       )}
     </main>

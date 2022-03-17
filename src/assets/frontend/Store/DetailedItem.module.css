@@ -6,12 +6,13 @@ img {
 
 .container {
     margin: 0 auto;
+    width: 90%;
     max-width: 74em;
 }
 
 .details_container {
     display: flex;
-    padding: 3em 3em 1.75em;
+    padding: 1.75em 0em;
     gap: 2.75em;
     height: 550px;
 }
@@ -30,6 +31,7 @@ img {
 }
 
 .mainImgHolder {
+    opacity: 1;
     flex-basis: 80%;
     order: 3;
     margin-left: 0;
@@ -58,7 +60,6 @@ img {
     border: 1px solid rgb(255, 105, 180);
     cursor: pointer;
 }
-
 
 
 /*  
@@ -161,7 +162,7 @@ img {
 */
 
 .reviews_container {
-    margin: 0 3em 3em;
+    margin: 0 0em 3em;
 }
 
 .reviewTitle {
@@ -261,6 +262,10 @@ img {
         order: 5;
         gap: 1em;
     }
+
+    .inactiveImg {
+        width: 20%;
+    }
 }
 
 @media (max-width: 823px) {
@@ -269,17 +274,18 @@ img {
     }
 
     .images_container {
-        max-height: 28em;
-        height: 28em;
+        flex-basis: 28em;
+        gap: 1em;
+    }
+
+    .mainImgHolder {
+        flex-basis: auto;
+        height: 75%;
     }
 
     .details_container {
         flex-direction: column;
         height: 100%;
-    }
-
-    .mainImgHolder {
-        flex-basis: auto;
     }
 }
 
@@ -299,3 +305,9 @@ img {
         min-width: 100%;
     }
 }
+
+/* @media (max-width: 426px) {
+    .inactiveImg {
+        flex-basis: 25%;
+    }
+} */
