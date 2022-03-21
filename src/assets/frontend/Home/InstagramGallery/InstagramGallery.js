@@ -15,7 +15,11 @@ export default function InstagramGallery() {
   return (
     <div className={styles.container}>
       {gallery.map((image) => (
-        <a key={image} className={styles.col} href="##">
+        <a
+          key={image}
+          className={styles.col}
+          href="https://www.instagram.com/queens_creamy_cakes/?hl=en"
+        >
           <img className={styles.colImg} src={image} alt="from instagram" />
         </a>
       ))}
