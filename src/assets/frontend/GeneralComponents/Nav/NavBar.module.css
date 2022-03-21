@@ -44,12 +44,12 @@ ul {
     padding: 0.35em .5em;
     letter-spacing: 1px;
     font-weight: 700;
+    color: rgba(255, 255, 255, 1);
 }
 
 .slider:hover,
 .slider:focus {
     border-color: var(--pink-h);
-    opacity: 0.85;
 }
 
 .exp_list {

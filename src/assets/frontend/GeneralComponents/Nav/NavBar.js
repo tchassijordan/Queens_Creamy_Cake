@@ -87,7 +87,6 @@ export default function NavBar() {
   });
   const activeExplore = {
     borderColor: "rgb(255, 105, 180)",
-    opacity: "0.85",
   };
 
   return (
