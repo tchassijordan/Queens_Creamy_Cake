@@ -6,12 +6,21 @@ import { MdPauseCircleFilled, MdPlayCircleFilled } from "react-icons/md";
 import { BiRightArrow, BiLeftArrow } from "react-icons/bi";
 
 export default function Slide(props) {
-  const gallery = [
-    "https://firebasestorage.googleapis.com/v0/b/queens-creamy-cake.appspot.com/o/images%2Fcakes%2Fwedding_cakes%2Fwedding_cake_4.jpg?alt=media&token=88ff729b-9291-40f4-ba24-6c66f7d4c4f4",
-    "https://firebasestorage.googleapis.com/v0/b/queens-creamy-cake.appspot.com/o/images%2Fdonuts%2Fdonut_13.jpg?alt=media&token=7df5f094-8b40-4e54-98ff-3db1a2c02b60",
-    "https://firebasestorage.googleapis.com/v0/b/queens-creamy-cake.appspot.com/o/images%2Fhome_img%2Fhome_cupcakes_1.jpg?alt=media&token=b5c94bc0-7d73-4aaa-a4ab-ba4c25f61ca3",
-    "https://firebasestorage.googleapis.com/v0/b/queens-creamy-cake.appspot.com/o/images%2Fcakes%2Fwedding_cakes%2Fwedding_cake_10.jpg?alt=media&token=88ff729b-9291-40f4-ba24-6c66f7d4c4f4",
-  ];
+  const gallery =
+    window.innerWidth < window.innerHeight
+      ? [
+          "https://firebasestorage.googleapis.com/v0/b/queens-creamy-cake.appspot.com/o/images%2Fhome_img%2F3levels_wedding_cakes.jpg?alt=media&token=a043680b-ec6f-479f-9fd5-0f0f285a03c5",
+          "https://firebasestorage.googleapis.com/v0/b/queens-creamy-cake.appspot.com/o/images%2Fdonuts%2Fdonut_13.jpg?alt=media&token=7df5f094-8b40-4e54-98ff-3db1a2c02b60",
+          "https://firebasestorage.googleapis.com/v0/b/queens-creamy-cake.appspot.com/o/images%2Fhome_img%2Fdeva-williamson-ntfGWVbBiO0-unsplash.jpg?alt=media&token=52fa964d-5ae2-41e2-86c3-22770a270866 ",
+          "https://firebasestorage.googleapis.com/v0/b/queens-creamy-cake.appspot.com/o/images%2Fhome_img%2Fcupcake_3.jpg?alt=media&token=dd75e2c8-713e-4d92-9784-fed653c4d260",
+        ]
+      : [
+          "https://firebasestorage.googleapis.com/v0/b/queens-creamy-cake.appspot.com/o/images%2Fhome_img%2Fcupcakes_for_delivery.jpg?alt=media&token=4d8a1663-ab52-4ead-ad37-a9ff596ea8c8",
+          "https://firebasestorage.googleapis.com/v0/b/queens-creamy-cake.appspot.com/o/images%2Fdonuts%2Fdonut_13.jpg?alt=media&token=7df5f094-8b40-4e54-98ff-3db1a2c02b60",
+          "https://firebasestorage.googleapis.com/v0/b/queens-creamy-cake.appspot.com/o/images%2Fhome_img%2Fhome_cupcakes_1.jpg?alt=media&token=b5c94bc0-7d73-4aaa-a4ab-ba4c25f61ca3",
+          "https://firebasestorage.googleapis.com/v0/b/queens-creamy-cake.appspot.com/o/images%2Fhome_img%2Fhand_deco.jpg?alt=media&token=43ced30a-af29-48ac-9bb1-0325d1672bb3",
+        ];
+
   const [count, setCount] = useState(0);
   const [isRunning, setIsRunning] = useState(true);
   function checkCount() {
