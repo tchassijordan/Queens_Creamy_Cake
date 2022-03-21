@@ -7,14 +7,34 @@
     padding: 3em 2em;
     font-size: 0.75rem;
     font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
 }
 
-.about p {
+.about_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 40em;
+    margin-bottom: 1.75em;
+}
+
+.about_section_img {
+    box-sizing: border-box;
+    flex-basis: 40%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 7px;
+    margin-bottom: 1.5em;
+}
+
+.about_section_text {
+    flex-basis: 47%;
     text-align: left;
     word-wrap: break-word;
     line-height: 1.6;
     letter-spacing: 1.5px;
     color: rgb(0, 0, 0);
+
 }
 
 .introContainer {
@@ -81,20 +101,52 @@
     max-height: 390px;
 }
 
+.exploreTitle {
+    font-size: 2rem;
+    margin: 1em auto 0;
+    text-align: center;
+}
+
+.exploreContainer {
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+    padding: 2.25em 1.75em;
+    padding-right: 0;
+    width: 100%;
+}
+
+.exploreItem {
+    margin-right: 1.5em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    scroll-snap-align: center;
+    width: 100%;
+    min-width: 18em;
+}
+
+.exploreItem:last-child {
+    margin-right: 0;
+}
+
 .exploreItemDes {
-    padding: 1em 2em;
+    padding: 1.175em 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 11.875em;
     line-height: 1.5;
     font-size: 0.75rem;
 }
 
+.exploreItemDesText {
+    margin-top: 0;
+    text-align: center;
+}
+
 .styledExploreImg {
     display: grid;
-    grid-template: 50px 300px 400px / 1fr;
+    grid-template: 8.75em 12.5em / 1fr;
 }
 
 .gelato {
@@ -105,8 +157,6 @@
 }
 
 .exploreItemImg {
-    /* height: 18.75em;
-    max-height: 1000px; */
     object-fit: cover;
     object-position: bottom;
     grid-column: 1 / -1;
@@ -116,21 +166,22 @@
 .readMoreBtn,
 .viewMenuBtn,
 .customizeBtn {
+    font-size: 0.65rem;
     display: block;
-    padding: 0.75em 1.75em;
+    padding: 0.7em 1.75em;
     font-weight: 700;
-    width: max-content;
+    width: fit-content;
     letter-spacing: 1px;
-    box-shadow: 0px 0px 3px 0px black;
+    box-shadow: 0px 0px 2px 0px black;
     transition: background 300ms;
-    border-radius: 0.25em;
+    border-radius: 30px;
 }
 
 .readMoreBtn {
     background-color: gold;
     background: linear-gradient(180deg, rgb(238, 255, 0), rgb(255, 123, 0));
     color: rgb(0, 0, 0);
-    margin: 2em auto 0;
+    margin: 0 auto;
 }
 
 .readMoreBtn:hover,
@@ -146,7 +197,7 @@
 }
 
 .viewMenuBtn {
-    background-color: rgb(255, 0, 149);
+    background-color: rgba(255, 0, 149, 0.637);
     color: rgba(39, 1, 31, 0.822);
 }
 
@@ -165,12 +216,6 @@
 .customizeBtn:hover,
 .customizeBtn:focus {
     background-color: rgba(0, 0, 0, 0.555);
-}
-
-.vid {
-    width: 100%;
-    height: 100%;
-    display: block;
 }
 
 @media (min-width: 560px) {
@@ -193,19 +238,10 @@
         height: 50vh;
     }
 
-    .exploreContainer {
-        display: flex;
-        gap: 2em;
-        padding: 2em;
-    }
-
     .exploreItem {
-        flex-basis: 50%;
-        box-shadow: 0px 0px 5px 0px black;
+        margin-right: 2.25em;
     }
 }
-
-
 
 @media (min-width: 768px) {
     .introContainer {
@@ -223,15 +259,41 @@
         align-items: center;
         flex-direction: column;
         gap: 2em;
+        margin: 0 auto;
+        padding-left: 0;
+        padding-right: 0;
     }
 
-    .about p {
+    .about_section {
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+    }
+
+    .about_section_img {
+        max-height: 20em;
+    }
+
+    .about_section_text {
         max-width: 44em;
         margin: 0;
     }
+}
 
-    .exploreContainer {
-        padding: 4em;
-        gap: 4em;
+@media (min-width: 950px) {
+
+    .about,
+    .about_section {
+        gap: 2.75em;
+    }
+}
+
+@media only screen and (max-device-width: 950px) {
+    .logoImgContainer {
+        background-attachment: scroll;
+    }
+
+    .about {
+        width: 90%;
     }
 }
