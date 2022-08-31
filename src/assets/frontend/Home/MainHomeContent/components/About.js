@@ -45,7 +45,7 @@ export default function About(props) {
           lacinia quam. Aliquam nec lorem et felis dignissim gravida
         </p>
       </div>
-      <Link className={styles.readMoreBtn} to="/Queens_Creamy_Cake/about">
+      <Link className={styles.readMoreBtn} to="/about">
         Read More
       </Link>
     </div>

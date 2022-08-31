@@ -13,7 +13,7 @@ const ExplorableItem = ({ props, picture, bgColor, description }) => {
         <Link
           className={styles.viewMenuBtn}
           to={{
-            pathname: `/Queens_Creamy_Cake/store/${props.category.parent_name}/${props.id}`,
+            pathname: `/store/${props.category.parent_name}/${props.id}`,
             state: { props },
           }}
         >

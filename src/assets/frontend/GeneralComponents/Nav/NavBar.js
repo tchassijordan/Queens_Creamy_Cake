@@ -30,31 +30,22 @@ const Explore = () => {
         >
           <ul className={styles.menu_ls}>
             <li>
-              <Link
-                className={styles.menu_ls_a}
-                to="/Queens_Creamy_Cake/store/"
-              >
+              <Link className={styles.menu_ls_a} to="/store/">
                 Store
               </Link>
             </li>
             <li>
-              <Link
-                className={styles.menu_ls_a}
-                to="/Queens_Creamy_Cake/store/cakes"
-              >
+              <Link className={styles.menu_ls_a} to="/store/cakes">
                 Cakes
               </Link>
             </li>
             <li>
-              <Link
-                className={styles.menu_ls_a}
-                to="/Queens_Creamy_Cake/store/packs"
-              >
+              <Link className={styles.menu_ls_a} to="/store/packs">
                 Packs
               </Link>
             </li>
             <li>
-              <Link className={styles.menu_ls_a} to="/Queens_Creamy_Cake">
+              <Link className={styles.menu_ls_a} to="/">
                 Others
               </Link>
             </li>
@@ -93,7 +84,7 @@ export default function NavBar() {
     <nav className={styles.nav}>
       <ul className={styles.navList}>
         <li className={styles.logo}>
-          <Link to="/Queens_Creamy_Cake">
+          <Link to="/">
             <img
               className={styles.logoImg}
               src="https://firebasestorage.googleapis.com/v0/b/queens-creamy-cake.appspot.com/o/images%2FQCC_logo.jpg?alt=media&token=d1e795d8-4436-4579-a416-3e521e982ae3"

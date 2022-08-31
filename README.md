@@ -2,9 +2,9 @@
 
 This is an e-commerce website for a cake & dessert vendor. Built with React and firebase.
 
-You can checkout the deployment through <a href="https://ijordan.tech/Queens_Creamy_Cake">this link</a>.
+You can checkout the deployment through <a href="https://queens-creamy-cake.netlify.app">this link</a>.
 
-# How to run this app locally
+## How to run this app locally
 
 If you wish to run this app locally, do the following.
 
@@ -14,6 +14,6 @@ If you wish to run this app locally, do the following.
 
 There you go everything is set up pretty good.
 
-# What to run the app locally?
+## What to run the app locally?
 
 1. Run the command `npm start`

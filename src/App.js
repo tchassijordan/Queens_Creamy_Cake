@@ -19,24 +19,13 @@ export default function App() {
           <NavBar />
         </header>
         <Switch>
-          <Route path="/Queens_Creamy_Cake" component={HomePage} exact />
-          <Route path="/Queens_Creamy_Cake/store" component={Store} exact />
-          <Route
-            path="/Queens_Creamy_Cake/store/cakes"
-            component={Cakes}
-            exact
-          />
-          <Route
-            path="/Queens_Creamy_Cake/store/:params/:id"
-            component={DetailedItem}
-          />
-          <Route
-            path="/Queens_Creamy_Cake/store/packs"
-            component={Packs}
-            exact
-          />
-          <Route path="/Queens_Creamy_Cake/about" component={AboutPage} />
-          <Route path="/Queens_Creamy_Cake/contact" component={ContactPage} />
+          <Route path="/" component={HomePage} exact />
+          <Route path="/store" component={Store} exact />
+          <Route path="/store/cakes" component={Cakes} exact />
+          <Route path="/store/:params/:id" component={DetailedItem} />
+          <Route path="/store/packs" component={Packs} exact />
+          <Route path="/about" component={AboutPage} />
+          <Route path="/contact" component={ContactPage} />
         </Switch>
         <footer>
           <Footer />
